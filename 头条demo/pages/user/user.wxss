@@ -1,0 +1,50 @@
+/* pages/user/user.wxss */
+#header{
+  height:240rpx;
+  background:#010;
+  display:flex;
+  align-items: center;
+  padding-left:50rpx;
+}
+
+#header .name{
+  color:white;
+  padding-left:40rpx;
+}
+
+#user-info{
+  height:135rpx;
+  display:flex;
+  align-items: center;
+}
+
+#user-info > view{
+  flex: 1 1 374rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user-info  text{
+  display:block;
+  font-size:24rpx;
+}
+
+
+.gap{
+  height:30rpx;
+  background:#f5f5f5;
+}
+
+.shoucang .title{
+  font-size:30rpx;
+  padding-left:40rpx;
+  padding-top:35rpx;
+}
+
+.shoucang-list{
+  text-align: center;
+  padding-top:45rpx;
+  font-size: 30rpx;
+  color:#999999;
+}

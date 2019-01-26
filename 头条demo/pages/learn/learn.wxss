@@ -1,0 +1,26 @@
+/* pages/learn/learn.wxss */
+.active{
+  background:#aef;
+}
+
+.error{
+  background: #f00;
+}
+
+.info{
+  background:orange;
+}
+
+.item{
+  padding:30rpx;
+}
+
+.duanzi{
+  padding:30rpx;
+  font-size: 30rpx;
+}
+
+.event{
+  background:#a90;
+  height:200rpx;
+}

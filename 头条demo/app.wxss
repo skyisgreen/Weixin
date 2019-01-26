@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.bg{
+  background:#aef;
+}
+
+.bg-2{
+  background:#eaf;
+}
+
+.bg-3{
+  background:#aeb;
+}
+
+.bg-4{
+  background:#9a9;
+}
+
+.bg-5{
+  background:#a6b;
+}
+
+.bg-6{
+  background:#e6a;
+}
+
+.bg-7{
+  background:#baf;
+}
+
+.pull-left{
+  float:left;
+}

@@ -1,0 +1,21 @@
+<!--pages/learn/learn.wxml-->
+<!-- 数据绑定 -->
+<view class="{{cls}} item">
+  {{msg}}
+</view>
+
+<!-- 列表渲染 -->
+
+<view class="duanzi bg-2">
+  <view wx:for="{{duanzis}}">{{item}}</view>
+</view>
+
+
+<!-- 条件渲染' -->
+<view class="ad"  wx:if="{{!isVip}}"> <image src="../../images/test-1.png" style='width:100%;'></image></view>
+
+
+<!-- 事件 -->
+<view class="event" bindtap="tap" style="background:{{color}}">
+
+</view>

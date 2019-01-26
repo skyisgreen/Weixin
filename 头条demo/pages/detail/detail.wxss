@@ -1,0 +1,41 @@
+/* pages/detail/detail.wxss */
+@import "/wxParse/wxParse.wxss";
+#content{
+  min-height:100rpx;
+  padding:50rpx 30rpx;
+  border-bottom:solid 1px #ddd;
+  
+}
+
+.title{
+  font-size:44rpx;
+  font-weight: bold;
+  padding-bottom:40rpx;
+}
+
+
+.hr{
+  height:1rpx;
+  border:solid 1px #ddd;
+  margin: 20rpx 0rpx;
+}
+
+.content{
+  line-height:1.5em;
+}
+
+.media .source{
+  font-size:26rpx;
+}
+
+.media .time{
+  font-size: 18rpx;
+  color:#9a9a9a;
+}
+
+.content {
+  padding-top:50rpx;
+  text-indent: -2em;
+  font-size:30rpx;
+
+}

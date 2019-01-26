@@ -1,0 +1,54 @@
+<!--pages/search/search.wxml-->
+<!-- 搜索部分 start -->
+<view id="search">
+  <view class="input pull-left">
+      <!-- icon  start -->
+      <view class="search pull-left">
+        <icon type="search" size="17"/>
+      </view>
+      <!-- icon  end -->
+
+      <view class="input-content">
+        <input  placeholder='请输入关键字' />
+      </view>
+  </view>
+
+  <view class="cancel pull-left">
+    取消
+  </view>
+</view>
+<!-- 搜索部分 end -->
+
+<!-- 历史记录  start -->
+<view id="history" class=''>
+  <view class="header">
+    <view class="title">历史记录</view>
+    <view class="lajitong"><image src="../../images/garbage.png" style="width:32rpx;height:32rpx;"></image></view>
+  </view>
+
+  <view class="keywords">
+    <view class="item pull-left">火箭签约安东尼</view>
+    <view class="item pull-left">火箭签约安东尼</view>
+    <view class="item pull-left">火箭签约安东尼</view>
+    <view class="item pull-left">火箭签约安东尼</view>
+  </view>
+</view>
+<!-- 历史记录  end -->
+
+<view class="gap"></view>
+
+<!-- 搜索热词  start -->
+<view id="hotwords" class=''>
+  <view class="header">
+    <view class="title">搜索热词</view>
+    <view class="close"></view>
+  </view>
+
+  <view class="keywords">
+    <view class="item pull-left">火箭签约安东尼</view>
+    <view class="item pull-left">火箭签约安东尼</view>
+    <view class="item pull-left">火箭签约安东尼</view>
+    <view class="item pull-left">火箭签约安东尼</view>
+  </view>
+</view>
+<!-- 搜索热词  end -->
